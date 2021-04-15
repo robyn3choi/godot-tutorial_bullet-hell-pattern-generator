@@ -19,6 +19,13 @@ config/name="bullet-hell-pattern-generator"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1280
+window/size/height=720
+window/stretch/mode="2d"
+window/stretch/aspect="keep_width"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"

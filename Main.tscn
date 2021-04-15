@@ -5,4 +5,4 @@
 [node name="Node" type="Node"]
 
 [node name="Enemy" parent="." instance=ExtResource( 1 )]
-position = Vector2( 502.777, 292.835 )
+position = Vector2( 640, 360 )
