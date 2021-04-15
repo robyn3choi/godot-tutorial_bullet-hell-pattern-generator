@@ -4,9 +4,9 @@ const bullet_scene = preload("res://Bullet.tscn")
 onready var shoot_timer = $ShootTimer
 onready var rotater = $Rotater
 
-const rotate_speed = 80
+const rotate_speed = 100
 const shoot_timer_wait_time = 0.15
-const spawn_point_count = 6
+const spawn_point_count = 4
 const radius = 100
 
 func _ready():	

@@ -13,3 +13,8 @@ __meta__ = {
 [node name="Sprite" type="Sprite" parent="."]
 scale = Vector2( 0.4, 0.4 )
 texture = ExtResource( 2 )
+
+[node name="KillTimer" type="Timer" parent="."]
+wait_time = 10.0
+autostart = true
+[connection signal="timeout" from="KillTimer" to="." method="_on_KillTimer_timeout"]
